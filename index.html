@@ -7,34 +7,44 @@
     }
 
     .padding-logo {
-        padding: 300px 60px 25px 58px
+        padding: 300px 1px 25px 58px
+        
     }
     
     div.form {
         display: block;
         text-align: center;
+        
     }
 
     a {
         font-family: arial, sans-serif;
         font-size: 13px;
-        text-decoration: none;
+        text-decoration: none;       
     }
 
     .float-right{
         float: right;
     }
 
-    ul {
+    .top-ul {
         font-family: arial, sans-serif;
         font-size: 13px;
         display: inline;
-        text-decoration: none;
-        list-style-type: none;
+        color:rgb(92, 91, 92);
+        
         }
 
+    .footer-ul {
+        font-family: arial, sans-serif;
+        font-size: 
+        display: inline;
+        text-decoration: none;
+        color:rgb(92, 92, 92)
+    }
     li {
         display: inline;
+        
     }
 
     .gb-icons{
@@ -59,6 +69,10 @@
         text-decoration: none;
     }
 
+    .topnav-floatright{
+        float: right;
+    }
+
     .gb-circle-icon{
         background-size: 32px 32px;
         border: 0;
@@ -69,17 +83,34 @@
         position: relative;
         z-index: 0;
         vertical-align: middle;
+        
     }
-   
-</style>
-<ul>
-    <li><a href="">About</a></li>
-    <li><a href="">Store</a></li>
-    <li><a href="">Gmail</a></li>
-    <li><a href="">Images</a></li>
-    <li><a class= "gb-icons gb-nineboxes" role="button" ></a></li>
-    <li><img class= gb-circle-icon src="https://lh3.googleusercontent.com/ogw/ADGmqu-WtNKQ7mbhsZiFY0cThaydEnuaiPZcaErja40kotGCUs0x6dDYmoxruAaw6hExOcCBjwVjCyNCnBSht715tC27xGvj2O_A5cJ4P0utFptOPxi0UEmTarThdJCC7A4_o7IzSeC0mqEaQWCSZFnHIjUMfg66QOzKojgxZ2dv7Gr0yCLK-Ffl-mTDviqaaXvhwqXf63lxOLZX3GNH3_Sck9web2egmnWbGx2y-JbjUbnG5RBYR-nPfS5K5dpdbr_AyzW9XhD7X250YeYli-YE18IZ4_FON3gu1MJ4aqe-BxUykAJtnw-NytuxqQZ1fcLH4b9TUIGmMtdBO8HJ8LpMDYIfv_mS2HUw9YE3ni7FHo1SXx2FbcEBbMJ_ifZKKVxbd62O1lTXzh1A70hqBHvW0s7yuFELvuJfHNDsvLtMaN_HV7YR0W_jmYCe-zXKN8G9dR8lVl1aqcutMcOJoVbAngvgzr0YGWzky-SJWH-SsLP7K2Myt0vCH8TsRWyOz5IxfZ98aJbYE2zD-CYa2Am7xpqYoXKYfZc4h-bi10hG3UPRqO1C9IqlF4NHAAOfZvMyRIFu_CacYQEIqvex6dZ2CQydvxBMxLP0nvpoFjXR6wrKfcIjNVRqG65sQTPiQCBU5esusHe-7I458wHO2LQ5r3sL=s32-c"></li>
     
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(228, 228, 228);
+        color: white;
+        height: 42px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    ul{
+        list-style-type: none;
+    }
+
+</style>
+
+<ul class="top-ul">
+    <li><a>About</a></li>
+    <li><a>Store</a></li>
+    <li><img class= "gb-circle-icon topnav-floatright" src="https://lh3.googleusercontent.com/ogw/ADGmqu-WtNKQ7mbhsZiFY0cThaydEnuaiPZcaErja40kotGCUs0x6dDYmoxruAaw6hExOcCBjwVjCyNCnBSht715tC27xGvj2O_A5cJ4P0utFptOPxi0UEmTarThdJCC7A4_o7IzSeC0mqEaQWCSZFnHIjUMfg66QOzKojgxZ2dv7Gr0yCLK-Ffl-mTDviqaaXvhwqXf63lxOLZX3GNH3_Sck9web2egmnWbGx2y-JbjUbnG5RBYR-nPfS5K5dpdbr_AyzW9XhD7X250YeYli-YE18IZ4_FON3gu1MJ4aqe-BxUykAJtnw-NytuxqQZ1fcLH4b9TUIGmMtdBO8HJ8LpMDYIfv_mS2HUw9YE3ni7FHo1SXx2FbcEBbMJ_ifZKKVxbd62O1lTXzh1A70hqBHvW0s7yuFELvuJfHNDsvLtMaN_HV7YR0W_jmYCe-zXKN8G9dR8lVl1aqcutMcOJoVbAngvgzr0YGWzky-SJWH-SsLP7K2Myt0vCH8TsRWyOz5IxfZ98aJbYE2zD-CYa2Am7xpqYoXKYfZc4h-bi10hG3UPRqO1C9IqlF4NHAAOfZvMyRIFu_CacYQEIqvex6dZ2CQydvxBMxLP0nvpoFjXR6wrKfcIjNVRqG65sQTPiQCBU5esusHe-7I458wHO2LQ5r3sL=s32-c"></li>
+    <li><a class= "gb-icons gb-nineboxes topnav-floatright" role="button" ></a></li>
+    <li><a class=topnav-floatright>Images</a></li>
+    <li><a class=topnav-floatright>Gmail</a></li>
 </ul>
 
 <head></head>
@@ -103,14 +134,15 @@
     <button type:"submit">I'm Feeling Lucky</button>
 </form>
 </div>
-<footer>
-<ul>
-    <li><a href="">Advertising</a></li>
-    <li><a href="">Business</a></li>
-    <li><a href="">How Search Works</a></li>
-    <li><a class= float-right href="">Privacy</a></li>
-    <li><a class= float-right href="">Terms</a></li>
-    <li><a class= float-right href="">Settings</a></li>
+
+<footer class= footer>
+<ul class="footer-ul">
+    <li><a>Advertising</a></li>
+    <li><a>Business</a></li>
+    <li><a>How Search Works</a></li>
+    <li><a class= topnav-floatright>Settings</a></li>
+    <li><a class= topnav-floatright>Terms</a></li>
+    <li><a class= topnav-floatright>Privacy</a></li>
 </ul>
 </footer>
 
